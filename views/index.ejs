@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/stylesheet/index.css">
+<%- include('./partials/header') -%>
+<form action="process-students" method="post" style="position: absolute; background: rgba(19, 35, 47, 0.9); padding: 40px; max-width: 600px;">
+    <h3>Student Form</h3>
+    <input type="text" name="txtName" placeholder="Student Name">
+    <br><br>
+    <input type="text" name="txtSurname" placeholder="Student Surname">
+    <br><br>
+    <input type="text" name="txtIDno" placeholder="ID Number">
+    <br><br>
+    <button type="submit">Add Student</button>
+</form>
+<%- include('./partials/footer') -%>
